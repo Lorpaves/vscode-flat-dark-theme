@@ -354,7 +354,8 @@
         "storage.type.function",
         "punctuation.definition.keyword",
         "keyword.other",
-        "variable.language.this"
+        "variable.language.this",
+        "meta.tag"
       ],
       "settings": {
         "foreground": "#fa7d7d"
@@ -673,6 +674,19 @@
       ],
       "settings": {
         "foreground": "#C3E88D"
+      }
+    },
+
+    // Jinja Support
+    {
+      "name": "Jinja Tag",
+      "scope": [
+        "meta.scope.jinja.tag",
+        "meta.scope.jinja.variabl",
+        "entity.other.jinja.delimiter.variable"
+      ],
+      "settings": {
+        "foreground": "#b588dc"
       }
     },
 
