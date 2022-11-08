@@ -464,8 +464,10 @@
       "scope": [
         "string.quoted.docstring.multi",
         "string.quoted.triple",
+        "string.quoted.double",
         "string.quoted.other",
-        "string.template"
+        "string.template",
+        "String"
       ],
       "settings": {
         "foreground": "#6097c7"
