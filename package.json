@@ -9,6 +9,7 @@
   "categories": [
     "Themes"
   ],
+  "repository": "https://github.com/Lorpaves/vscode-flat-dark-theme.git",
   "contributes": {
     "themes": [
       {
