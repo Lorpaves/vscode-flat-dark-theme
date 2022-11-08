@@ -462,24 +462,16 @@
     {
       "name": "String and Block",
       "scope": [
-        "string.quoted.single",
-        "string.quoted.double",
+        "string.quoted.docstring.multi",
         "string.quoted.triple",
         "string.quoted.other",
         "string.template"
       ],
       "settings": {
-        "foreground": "#5f94c5"
+        "foreground": "#6097c7"
       }
     },
-    {
-      "name": "Doc",
-      "scope": ["string.quoted.docstring.multi"],
-      "settings": {
-        "foreground": "#b955be",
-        "fontStyle": "italic"
-      }
-    },
+
     // CSS Support
     {
       "name": "CSS Class and Support",
