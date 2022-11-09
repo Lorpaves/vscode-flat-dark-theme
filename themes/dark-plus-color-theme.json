@@ -360,7 +360,7 @@
         "support.type"
       ],
       "settings": {
-        "foreground": "#fa7d7d"
+        "foreground": "#ff8585"
       }
     },
 
@@ -457,7 +457,7 @@
         "storage.type.function keyword.declaration.function"
       ],
       "settings": {
-        "foreground": "#fa7d7d",
+        "foreground": "#ff8585",
         "fontStyle": "italic"
       }
     },
@@ -472,7 +472,7 @@
         "String"
       ],
       "settings": {
-        "foreground": "#6097c7"
+        "foreground": "#8ebee9"
       }
     },
 
