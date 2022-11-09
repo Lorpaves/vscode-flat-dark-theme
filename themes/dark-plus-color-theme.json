@@ -299,7 +299,8 @@
         "constant.language",
         "onstant.character.escape",
         "constant.other.placeholder",
-        "constant.other.caps"
+        "constant.other.caps",
+        "punctuation.separator.annotation.result"
       ],
       "settings": {
         "foreground": "#e394dc"
@@ -355,7 +356,8 @@
         "punctuation.definition.keyword",
         "keyword.other",
         "variable.language.this",
-        "meta.tag"
+        "meta.tag",
+        "support.type"
       ],
       "settings": {
         "foreground": "#fa7d7d"
@@ -443,8 +445,8 @@
         "variable.annotation"
       ],
       "settings": {
-        "foreground": "#adadad",
-        "fontStyle": "italic bold"
+        "foreground": "#c7c3c3",
+        "fontStyle": "italic"
       }
     },
     {
