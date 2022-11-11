@@ -75,6 +75,7 @@
     // 侧边栏
     "sideBar.background": "#1e1e1e",
     "sideBar.foreground": "#dfdddd",
+    "sideBar.border": "#565555",
     "sideBar.dropBackground": "#93939338",
     "sideBarTitle.foreground": "#dfdddd",
     "sideBarSectionHeader.background": "#2d2d2d",
