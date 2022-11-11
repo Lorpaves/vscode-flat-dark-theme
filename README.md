@@ -1,7 +1,11 @@
-# studio-dark README
+# Installation
 
 ```bash
-npm install -g vsce
+git clone https://github.com/Lorpaves/vscode-flat-dark-theme.git
+```
 
-vsce package
+```bash
+cd vscode-flat-dark-theme
+npm install -g vsce
+vsce package    # this will generate *.vsix file to let you install the theme from the extension
 ```
