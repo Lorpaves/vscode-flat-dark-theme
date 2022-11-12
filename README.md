@@ -1,3 +1,7 @@
+# Screenshot
+
+![screenshot](_assets/screenshot.png)
+
 # Installation
 
 ```bash
