@@ -357,7 +357,7 @@
         "punctuation.definition.keyword",
         "keyword.other",
         "variable.language.this",
-        "meta.tag",
+        
         "support.type"
       ],
       "settings": {
@@ -428,8 +428,7 @@
         "meta.function.parameters"
       ],
       "settings": {
-        "foreground": "#5ba89e",
-        "fontStyle": "italic"
+        "foreground": "#5ba89e"
       }
     },
 
@@ -447,7 +446,6 @@
       ],
       "settings": {
         "foreground": "#c7c3c3",
-        "fontStyle": "italic"
       }
     },
     {
@@ -459,7 +457,6 @@
       ],
       "settings": {
         "foreground": "#ff8585",
-        "fontStyle": "italic"
       }
     },
     {
@@ -561,23 +558,34 @@
       "name": "HTML Attributes",
       "scope": [
         "text.html.basic entity.other.attribute-name.html",
-        "text.html.basic entity.other.attribute-name"
+        "text.html.basic entity.other.attribute-name",
+        "entity.other.attribute-name.js",
+        "meta.tag.metadata.doctype"
       ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FFCB6B"
       }
     },
-
+    {
+      "name": "HTML Tags",
+      "scope":["punctuation.definition.tag"],
+      "settings": {
+        "foreground": "#e39d94",
+      }
+    },
     {
       "name": "Decorators",
       "scope": [
+        
         "tag.decorator.js entity.name.tag.js",
+        "entity.name.tag",
+        "entity.name.tag.js",
         "tag.decorator.js punctuation.definition.tag.js"
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#82AAFF"
+        "foreground": "#C792EA"
       }
     },
     {
