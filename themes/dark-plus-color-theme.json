@@ -357,7 +357,7 @@
         "punctuation.definition.keyword",
         "keyword.other",
         "variable.language.this",
-        
+        "variable.language.super",
         "support.type"
       ],
       "settings": {
@@ -425,7 +425,7 @@
         "meta.annotation.parameters",
         "meta.function-call.arguments",
         "variable.other.property",
-        "meta.function.parameters"
+        "meta.function.parameters",
       ],
       "settings": {
         "foreground": "#5ba89e"
