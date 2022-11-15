@@ -49,18 +49,18 @@
     "progressBar.background": "#555555",
 
     // 列表和树
-    "list.activeSelectionBackground": "#b5b4b435",
+    "list.activeSelectionBackground": "#1e1e1e",
     "list.focusAndSelectionOutline": "#1e1e1e",
     "list.activeSelectionForeground": "#c4bbff",
     "list.dropBackground": "#93939338",
     "list.focusBackground": "#1e1e1e",
     "list.focusForeground": "#ffffff",
     "list.highlightForeground": "#daca5f",
-    "list.hoverBackground": "#52525235",
+    "list.hoverBackground": "#242424",
     "list.hoverForeground": "#ffffff",
-    "list.inactiveSelectionBackground": "#b5b4b435",
+    "list.inactiveSelectionBackground": "#1e1e1e",
     "list.inactiveSelectionForeground": "#c4bbff",
-    "list.inactiveFocusBackground": "#b5b4b435",
+    "list.inactiveFocusBackground": "#1e1e1e",
     "list.invalidItemForeground": "#ffffff",
 
     // 活动栏
@@ -73,34 +73,34 @@
     "activityBarBadge.foreground": "#fff",
 
     // 侧边栏
-    "sideBar.background": "#1e1e1e",
+    "sideBar.background": "#242424",
     "sideBar.foreground": "#dfdddd",
-    "sideBar.border": "#565555",
+    "sideBar.border": "#1e1e1e",
     "sideBar.dropBackground": "#93939338",
     "sideBarTitle.foreground": "#dfdddd",
-    "sideBarSectionHeader.background": "#2d2d2d",
+    "sideBarSectionHeader.background": "#242424",
     "sideBarSectionHeader.foreground": "#fff",
-    "sideBarSectionHeader.border": "#2d2d2d",
+    "sideBarSectionHeader.border": "#1e1e1e",
 
     //编辑器组 & 选项卡
     "editorGroup.border": "#565555",
     "editorGroup.dropBackground": "#93939338",
     "editorGroupHeader.noTabsBackground": "#1e1e1e",
-    "editorGroupHeader.tabsBackground": "#1e1e1e",
+    "editorGroupHeader.tabsBackground": "#242424",
     "editorGroupHeader.tabsBorder": "#1e1e1e",
     "editorGroup.emptyBackground": "#1e1e1e",
     "editorGroup.focusedEmptyBorder": "#1e1e1e",
     "tab.activeBackground": "#1e1e1e",
     "tab.activeForeground": "#d58844",
-    "tab.border": "#1e1e1e",
+    "tab.border": "#242424",
     "tab.activeBorder": "#d58844",
     "tab.unfocusedActiveBorder": "#d58844",
-    "tab.inactiveBackground": "#56565645",
+    "tab.inactiveBackground": "#242424",
     "tab.inactiveForeground": "#dfdddd",
     "tab.unfocusedActiveForeground": "#d58844",
     "tab.unfocusedInactiveForeground": "#dfdddd",
-    "tab.hoverBackground": "#56565686",
-    "tab.unfocusedHoverBackground": "#56565686",
+    "tab.hoverBackground": "#1e1e1e",
+    "tab.unfocusedHoverBackground": "#242424",
     "tab.hoverBorder": "#1e1e1e",
     "tab.unfocusedHoverBorder": "#1e1e1e",
     "tab.activeModifiedBorder": "#1e1e1e",
@@ -112,19 +112,19 @@
     //编辑器色彩
     "editor.background": "#1e1e1e",
     "editor.foreground": "#d1d1d1",
-    "editorLineNumber.foreground": "#4d4d4d",
-    "editorLineNumber.activeForeground": "#6ad96a9a",
+    "editorLineNumber.foreground": "#4c4c4c7d",
+    "editorLineNumber.activeForeground": "#7a7a7ae9",
     "editorCursor.background": "#1e1e1e",
     "editorCursor.foreground": "#d1d1d1",
-    "editor.selectionBackground": "#8888885e",
+    "editor.selectionBackground": "#8888883b",
     "editor.selectionForeground": "#d1d1d1",
-    "editor.inactiveSelectionBackground": "#00ff2277",
-    "editor.selectionHighlightBackground": "#8888885e",
-    "editor.selectionHighlightBorder": "#8888885e",
-    "editor.wordHighlightBackground": "#8888885e",
-    "editor.wordHighlightBorder": "#8888885e",
-    "editor.wordHighlightStrongBackground": "#8888885e",
-    "editor.wordHighlightStrongBorder": "#8888885e",
+    "editor.inactiveSelectionBackground": "#5b5b5b77",
+    "editor.selectionHighlightBackground": "#8888883b",
+    "editor.selectionHighlightBorder": "#8888883b",
+    "editor.wordHighlightBackground": "#8888883b",
+    "editor.wordHighlightBorder": "#8888883b",
+    "editor.wordHighlightStrongBackground": "#8888883b",
+    "editor.wordHighlightStrongBorder": "#8888883b",
 
     // 搜索
     "editor.findMatchBackground": "#fffb18",
@@ -268,7 +268,13 @@
     "debugToolBar.background": "#686868",
     "debugToolBar.border": "#6f6f6f",
     "editor.stackFrameHighlightBackground": "#6f6f6f",
-    "editor.focusedStackFrameHighlightBackground": "#7d7d7d83"
+    "editor.focusedStackFrameHighlightBackground": "#7d7d7d83",
+
+    // 终端
+    "terminal.tab.activeBorder": "#e3a253",
+    "terminal.background": "#242424",
+    "panel.background": "#242424",
+    "panel.border": "#242424"
   },
   "tokenColors": [
     {
@@ -281,7 +287,7 @@
         "meta.toc-list"
       ],
       "settings": {
-        "foreground": "#6a9956",
+        "foreground": "#919191a3",
         "fontStyle": "italic"
       }
     },
@@ -425,7 +431,7 @@
         "meta.annotation.parameters",
         "meta.function-call.arguments",
         "variable.other.property",
-        "meta.function.parameters",
+        "meta.function.parameters"
       ],
       "settings": {
         "foreground": "#5ba89e"
@@ -445,7 +451,7 @@
         "variable.annotation"
       ],
       "settings": {
-        "foreground": "#c7c3c3",
+        "foreground": "#c7c3c3"
       }
     },
     {
@@ -456,7 +462,7 @@
         "storage.type.function keyword.declaration.function"
       ],
       "settings": {
-        "foreground": "#ff8585",
+        "foreground": "#ff8585"
       }
     },
     {
@@ -569,15 +575,14 @@
     },
     {
       "name": "HTML Tags",
-      "scope":["punctuation.definition.tag"],
+      "scope": ["punctuation.definition.tag"],
       "settings": {
-        "foreground": "#e39d94",
+        "foreground": "#e39d94"
       }
     },
     {
       "name": "Decorators",
       "scope": [
-        
         "tag.decorator.js entity.name.tag.js",
         "entity.name.tag",
         "entity.name.tag.js",
