@@ -471,12 +471,13 @@
         "string.quoted.docstring.multi",
         "string.quoted.triple",
         "string.quoted.double",
+        "string.quoted.single",
         "string.quoted.other",
         "string.template",
         "String"
       ],
       "settings": {
-        "foreground": "#8ebee9"
+        "foreground": "#7fb65f"
       }
     },
 
@@ -545,7 +546,6 @@
       "name": "entity.name.method.js",
       "scope": ["entity.name.method.js"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#82AAFF"
       }
     },
@@ -569,7 +569,6 @@
         "meta.tag.metadata.doctype"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#FFCB6B"
       }
     },
@@ -589,7 +588,6 @@
         "tag.decorator.js punctuation.definition.tag.js"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#C792EA"
       }
     },
@@ -599,7 +597,6 @@
         "source.js constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#FF5370"
       }
     },
