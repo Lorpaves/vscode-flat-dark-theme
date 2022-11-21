@@ -408,7 +408,9 @@
         "meta.braces",
         "meta.attribute",
         "meta.member.access",
-        "variable.other.object"
+        "variable.other.object",
+        "support.function.misc",
+        "variable"
       ],
       "settings": {
         "foreground": "#cfaa55"
@@ -491,7 +493,8 @@
         "source.less support.type.property-name",
         "source.stylus support.type.property-name",
         "source.postcss support.type.property-name",
-        "source.css meta.property-name.css"
+        "source.css meta.property-name.css",
+        "support.type.vendored.property-name"
       ],
       "settings": {
         "foreground": "#82d2ce"
@@ -499,7 +502,11 @@
     },
     {
       "name": "CSS Propertyies Values",
-      "scope": ["meta.property-value.css", "keyword.control.at-rule.media.css"],
+      "scope": [
+        "meta.property-value.css",
+        "support.constant.property-value",
+        "keyword.control.at-rule.media.css"
+      ],
       "settings": {
         "foreground": "#e394dc"
       }
@@ -508,6 +515,7 @@
       "name": "CSS Classes",
       "scope": [
         "entity.other.attribute-name.class",
+        "entity.other.attribute-name.pseudo-class",
         "entity.name.tag.css",
         "meta.selector.css"
       ],
@@ -532,11 +540,7 @@
     // JS support
     {
       "name": "Sub-methods",
-      "scope": [
-        "entity.name.module.js",
-        "variable.import.parameter.js",
-        "variable.other.class.js"
-      ],
+      "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
       "settings": {
         "foreground": "#FF5370"
       }
@@ -551,10 +555,7 @@
     },
     {
       "name": "meta.method.js",
-      "scope": [
-        "meta.class-method.js entity.name.function.js",
-        "variable.function.constructor"
-      ],
+      "scope": ["meta.class-method.js entity.name.function.js", "variable.function.constructor"],
       "settings": {
         "foreground": "#82AAFF"
       }
@@ -593,9 +594,7 @@
     },
     {
       "name": "ES7 Bind Operator",
-      "scope": [
-        "source.js constant.other.object.key.js string.unquoted.label.js"
-      ],
+      "scope": ["source.js constant.other.object.key.js string.unquoted.label.js"],
       "settings": {
         "foreground": "#FF5370"
       }
@@ -604,9 +603,7 @@
     // JSON Support
     {
       "name": "JSON Key - Level 0",
-      "scope": [
-        "source.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
+      "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
       "settings": {
         "foreground": "#C792EA"
       }
@@ -700,10 +697,7 @@
     // Markdown Support
     {
       "name": "Markdown - Plain",
-      "scope": [
-        "text.html.markdown",
-        "punctuation.definition.list_item.markdown"
-      ],
+      "scope": ["text.html.markdown", "punctuation.definition.list_item.markdown"],
       "settings": {
         "foreground": "#EEFFFF"
       }
