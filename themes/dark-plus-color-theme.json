@@ -476,7 +476,8 @@
         "string.quoted.single",
         "string.quoted.other",
         "string.template",
-        "String"
+        "String",
+        "variable.parameter.url"
       ],
       "settings": {
         "foreground": "#7fb65f"
@@ -505,7 +506,9 @@
       "scope": [
         "meta.property-value.css",
         "support.constant.property-value",
-        "keyword.control.at-rule.media.css"
+        "keyword.control.at-rule.media.css",
+        "support.constant.vendored.property-value",
+        "meta.property-value"
       ],
       "settings": {
         "foreground": "#e394dc"
@@ -517,7 +520,8 @@
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.pseudo-class",
         "entity.name.tag.css",
-        "meta.selector.css"
+        "meta.selector.css",
+        "entity.other.attribute-name.pseudo-element"
       ],
       "settings": {
         "foreground": "#af9cff"
@@ -525,7 +529,7 @@
     },
     {
       "name": "CSS ID's",
-      "scope": ["source.sass keyword.control"],
+      "scope": ["source.sass keyword.control", "meta.at-rule.keyframes"],
       "settings": {
         "foreground": "#82AAFF"
       }
