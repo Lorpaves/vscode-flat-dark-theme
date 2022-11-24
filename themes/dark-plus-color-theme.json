@@ -205,7 +205,8 @@
     "peekView.border": "#323232",
     "peekViewEditor.background": "#323232",
     "peekViewEditorGutter.background": "#323232",
-    "peekViewEditor.matchHighlightBorder": "#fff562da",
+    "peekViewEditor.matchHighlightBackground": "#7272725b",
+    // "peekViewEditor.matchHighlightBorder": "#fff562da",
     "peekViewResult.background": "#323232",
     "peekViewResult.fileForeground": "#0b9f2e",
     "peekViewResult.lineForeground": "#bbbbbb",
@@ -304,7 +305,7 @@
         "constant.numeric.complex.real",
         "constant.numeric.complex.imaginary",
         "constant.language",
-        "onstant.character.escape",
+        "constant.character.escape",
         "constant.other.placeholder",
         "constant.other.caps",
         "punctuation.separator.annotation.result"
@@ -532,6 +533,13 @@
       "scope": ["source.sass keyword.control", "meta.at-rule.keyframes"],
       "settings": {
         "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "CSS Parent Selector ",
+      "scope": ["entity.other.attribute-name.parent-selector-suffix"],
+      "settings": {
+        "foreground": "#af9cff"
       }
     },
     {
