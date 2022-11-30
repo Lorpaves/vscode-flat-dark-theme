@@ -496,7 +496,8 @@
         "source.stylus support.type.property-name",
         "source.postcss support.type.property-name",
         "source.css meta.property-name.css",
-        "support.type.vendored.property-name"
+        "support.type.vendored.property-name",
+        "meta.attribute-selector.scss"
       ],
       "settings": {
         "foreground": "#82d2ce"
@@ -522,7 +523,8 @@
         "entity.other.attribute-name.pseudo-class",
         "entity.name.tag.css",
         "meta.selector.css",
-        "entity.other.attribute-name.pseudo-element"
+        "entity.other.attribute-name.pseudo-element",
+        "entity.other.attribute-name.id.css"
       ],
       "settings": {
         "foreground": "#af9cff"
