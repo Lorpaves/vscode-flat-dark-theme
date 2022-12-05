@@ -10,8 +10,18 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "VSCode",
+    "Theme",
+    "Dark Theme",
+    "Flat"
+  ],
   "icon": "logo.png",
-  "repository": "https://github.com/Lorpaves/vscode-flat-dark-theme.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lorpaves/vscode-flat-dark-theme.git"
+  },
+  "license": "MIT",
   "contributes": {
     "themes": [
       {
