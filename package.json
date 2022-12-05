@@ -10,7 +10,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "https://github.com/Lorpaves/vscode-flat-dark-theme/blob/main/logo.png",
+  "icon": "logo.png",
   "repository": "https://github.com/Lorpaves/vscode-flat-dark-theme.git",
   "contributes": {
     "themes": [
