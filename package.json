@@ -1,14 +1,16 @@
 {
-  "name": "flat-dark",
-  "displayName": "Dark Flat",
-  "description": "A theme based on visual studio default dark theme",
-  "version": "0.0.1",
+  "name": "zenies-flat-dark",
+  "displayName": "Flat Dart Theme",
+  "description": "A theme based on visual studio default dark theme for minimalists",
+  "version": "1.0.1",
+  "publisher": "Lorpaves",
   "engines": {
     "vscode": "^1.54.0"
   },
   "categories": [
     "Themes"
   ],
+  "icon": "https://github.com/Lorpaves/vscode-flat-dark-theme/blob/main/logo.png",
   "repository": "https://github.com/Lorpaves/vscode-flat-dark-theme.git",
   "contributes": {
     "themes": [

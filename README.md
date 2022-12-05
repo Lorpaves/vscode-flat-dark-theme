@@ -1,6 +1,6 @@
 # Screenshot
 
-![screenshot](_assets/screenshot.png)
+![screenshot](https://github.com/Lorpaves/vscode-flat-dark-theme/blob/main/_assets/screenshot.png)
 
 # Installation
 

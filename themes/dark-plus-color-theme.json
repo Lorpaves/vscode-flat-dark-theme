@@ -153,8 +153,8 @@
     "editorRuler.foreground": "#a0a0a019",
 
     // 括号匹配
-    "editorBracketMatch.background": "#666666f7",
-    "editorBracketMatch.border": "#666666f7",
+    "editorBracketMatch.background": "#7c7c7c4a",
+    "editorBracketMatch.border": "#7c7c7c4a",
 
     // 缩略图标尺
     "editorOverviewRuler.border": "#1e1e1e",
@@ -201,10 +201,16 @@
     "editorMarkerNavigationWarning.background": "#323232",
     "editorMarkerNavigationInfo.background": "#323232",
 
+    // 面包屑导航
+    "breadcrumb.foreground": "#d1d1d1",
+    "breadcrumb.background": "#1e1e1e",
+    "breadcrumb.focusForeground": "#c86e45cb",
+    "breadcrumb.activeSelectionForeground": "#fe9c6ecb",
+    "breadcrumbPicker.background": "#2d2d2d",
     // 速览窗口色彩
-    "peekView.border": "#323232",
-    "peekViewEditor.background": "#323232",
-    "peekViewEditorGutter.background": "#323232",
+    "peekView.border": "#2d2d2d",
+    "peekViewEditor.background": "#2d2d2d",
+    "peekViewEditorGutter.background": "#2d2d2d",
     "peekViewEditor.matchHighlightBackground": "#7272725b",
     // "peekViewEditor.matchHighlightBorder": "#fff562da",
     "peekViewResult.background": "#323232",
@@ -212,9 +218,9 @@
     "peekViewResult.lineForeground": "#bbbbbb",
     "peekViewResult.matchHighlightBackground": "#acacac5b",
     "peekViewResult.selectionBackground": "#acacac33",
-    "peekViewTitle.background": "#5d5d5d",
+    "peekViewTitle.background": "#444444",
     "peekViewTitleDescription.foreground": "#bbbbbb",
-    "peekViewTitleLabel.foreground": "#28d04f",
+    "peekViewTitleLabel.foreground": "#ffa94c90",
 
     // 合并冲突
     "merge.currentHeaderBackground": "#34ca57b5",
@@ -311,7 +317,7 @@
         "punctuation.separator.annotation.result"
       ],
       "settings": {
-        "foreground": "#e394dc"
+        "foreground": "#8f9df1"
       }
     },
 
@@ -409,9 +415,7 @@
         "meta.braces",
         "meta.attribute",
         "meta.member.access",
-        "variable.other.object",
-        "support.function.misc",
-        "variable"
+        "support.function.misc"
       ],
       "settings": {
         "foreground": "#cfaa55"
@@ -444,7 +448,6 @@
     {
       "name": "Variable",
       "scope": [
-        "variable.other",
         "punctuation.definition.variable",
         "variable.other.constant",
         "variable.language",
@@ -553,8 +556,35 @@
     },
     // JS support
     {
+      "name": "JS Parameter",
+      "scope": ["variable.parameter.js"],
+      "settings": {
+        "foreground": "#d8d8d8"
+      }
+    },
+    {
+      "name": "JS Key",
+      "scope": ["meta.object-literal.key"],
+      "settings": {
+        "foreground": "#d8d8d8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JS Literal",
+      "scope": ["meta.objectliteral.js", "meta.array.literal.js"],
+      "settings": {
+        "foreground": "#99b9ff",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Sub-methods",
-      "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
+      "scope": [
+        "entity.name.module.js",
+        "variable.import.parameter.js",
+        "variable.other.class.js"
+      ],
       "settings": {
         "foreground": "#FF5370"
       }
@@ -569,7 +599,10 @@
     },
     {
       "name": "meta.method.js",
-      "scope": ["meta.class-method.js entity.name.function.js", "variable.function.constructor"],
+      "scope": [
+        "meta.class-method.js entity.name.function.js",
+        "variable.function.constructor"
+      ],
       "settings": {
         "foreground": "#82AAFF"
       }
@@ -608,7 +641,9 @@
     },
     {
       "name": "ES7 Bind Operator",
-      "scope": ["source.js constant.other.object.key.js string.unquoted.label.js"],
+      "scope": [
+        "source.js constant.other.object.key.js string.unquoted.label.js"
+      ],
       "settings": {
         "foreground": "#FF5370"
       }
@@ -617,7 +652,9 @@
     // JSON Support
     {
       "name": "JSON Key - Level 0",
-      "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
       "settings": {
         "foreground": "#C792EA"
       }
@@ -711,7 +748,10 @@
     // Markdown Support
     {
       "name": "Markdown - Plain",
-      "scope": ["text.html.markdown", "punctuation.definition.list_item.markdown"],
+      "scope": [
+        "text.html.markdown",
+        "punctuation.definition.list_item.markdown"
+      ],
       "settings": {
         "foreground": "#EEFFFF"
       }
