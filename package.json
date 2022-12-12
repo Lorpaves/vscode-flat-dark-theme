@@ -2,7 +2,7 @@
   "name": "zenies",
   "displayName": "Zenies Flat Dark Theme",
   "description": "A theme based on visual studio default dark theme for minimalists",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "publisher": "Lorpaves",
   "engines": {
     "vscode": "^1.54.0"
