@@ -2,16 +2,17 @@
   "name": "zenies",
   "displayName": "Zenies Flat Dark Theme",
   "description": "A theme based on visual studio default dark theme for minimalists",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "publisher": "Lorpaves",
   "engines": {
-    "vscode": "^1.54.0"
+     "vscode": "^1.81.0"
   },
+  "baseImagesUrl": "https://raw.githubusercontent.com/Lorpaves/vscode-flat-dark-theme/main/_assets/",
   "categories": [
     "Themes"
   ],
   "keywords": [
-    "VSCode",
+    "XCode",
     "Theme",
     "Dark Theme",
     "Flat"
